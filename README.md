@@ -1,12 +1,12 @@
-# Super-rentals
+# Super Rentals
 
-##### _Ember.js practice for Epicodus, 28 September 2015_
+##### _Ember.js practice for Epicodus, 29 September 2015_
 
 #### By **Diana Holland & Molly Waggett**
 
 ## Description
 
-This application allows a user to keep an archive of properties. It has full CRUD functionality, uses Ember, and is written in JavaScript.
+This application allows a user to keep an archive of rental properties and cities. It has full CRUD functionality, uses Ember, and is written in JavaScript.
 
 ## Prerequisites
 
