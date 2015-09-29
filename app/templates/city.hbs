@@ -1,7 +1,3 @@
 <h2>More information about {{model.name}}, {{model.country}}</h2>
-<p>Attractions</p>
-<ul>
-  {{#each model.attractions as |attraction|}}
-    <li>{{attraction}}</li>
-  {{/each}}
-</ul>
+
+{{city-detail city=model updateCity="updateCity" destroyCity="destroyCity"}}

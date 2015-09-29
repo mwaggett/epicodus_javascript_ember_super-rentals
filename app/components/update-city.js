@@ -1,20 +1,19 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  addNewCity: false,
+  updateCityForm: false,
   actions: {
-    cityFormShow() {
-      this.set('addNewCity', true);
+    updateCityForm() {
+      this.set('updateCityForm', true);
     },
-
-    saveCity() {
+    updateCity(city) {
       var params = {
         name: this.get('name'),
         country: this.get('country'),
         attractions: this.get('attractions').split(",")
       };
-      this.set('addNewCity', false),
-      this.sendAction('saveCity', params);
+      this.set('updateCityForm', false);
+      this.sendAction('updateCity', city, params);
     }
   }
 });

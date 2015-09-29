@@ -1,0 +1,9 @@
+<p>Attractions</p>
+<ul>
+  {{#each city.attractions as |attraction|}}
+    <li>{{attraction}}</li>
+  {{/each}}
+</ul>
+
+{{update-city city=city updateCity="updateCity" destroyCity="destroyCity"}}
+<button {{action 'deleteCity' city}}>Delete</button>
