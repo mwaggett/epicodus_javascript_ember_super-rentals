@@ -10,7 +10,7 @@ export default Ember.Component.extend({
     saveCity() {
       var params = {
         name: this.get('name'),
-        attractions: this.get('attractions'),
+        attractions: this.get('attractions').split(","),
         country: this.get('country'),
       };
       this.set('addNewCity', false),
