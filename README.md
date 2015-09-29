@@ -1,9 +1,12 @@
-## A project by **Molly Waggett and Diana Holland**
-Date of current version: 9/28/2015
-
 # Super-rentals
 
-Following along with an Epicodus lesson. This application allows a user to keep an archive of properties. It has full CRUD functionality, uses Ember, and is written in JavaSCript.
+##### _Ember.js practice for Epicodus, 28 September 2015_
+
+#### By **Diana Holland & Molly Waggett**
+
+## Description
+
+This application allows a user to keep an archive of properties. It has full CRUD functionality, uses Ember, and is written in JavaScript.
 
 ## Prerequisites
 
