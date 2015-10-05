@@ -5,5 +5,12 @@
   {{/each}}
 </ul>
 
+<p>Rentals Available in {{city.name}}</p>
+<ul>
+  {{#each city.rentals as |rental|}}
+    <li>{{rental-tile rental=rental update="update" destroyRental="destroyRental"}}</li>
+  {{/each}}
+</ul>
+
 {{update-city city=city updateCity="updateCity" destroyCity="destroyCity"}}
-<button {{action 'deleteCity' city}}>Delete</button>
+<button {{action 'deleteCity' city}}>Delete City</button>

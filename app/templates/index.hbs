@@ -5,11 +5,9 @@ We hope you find exactly what you're looking for in a place to stay.
 <h2>Available Rentals</h2>
 <ul>
   {{#each model.rentals as |rental|}}
-    {{rental-tile rental=rental update="update" destroyRental="destroyRental"}}
+    <li>{{rental-tile rental=rental update="update" destroyRental="destroyRental"}}</li>
   {{/each}}
 </ul>
-
-{{new-rental save2="save3"}}
 
 <h2>Cities</h2>
 <ul>
