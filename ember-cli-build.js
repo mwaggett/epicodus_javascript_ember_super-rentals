@@ -7,6 +7,7 @@ module.exports = function(defaults) {
   });
 
   app.import('bower_components/moment/moment.js');
+  app.import('vendor/gmaps.js');
 
   return app.toTree();
 };
